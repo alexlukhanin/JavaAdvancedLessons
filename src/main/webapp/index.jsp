@@ -8,7 +8,7 @@
 <body>
     <jsp:include page="header.jsp"></jsp:include>
 
-    <form action="registeration" method="post">
+    <form action="registration" method="post">
 
         <label for="firstName">First Name:</label>  <input type="text" name="firstName">
         <br>
