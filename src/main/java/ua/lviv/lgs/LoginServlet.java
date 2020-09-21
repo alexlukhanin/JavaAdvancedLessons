@@ -23,14 +23,14 @@ public class LoginServlet extends HttpServlet {
         User user = userService.getUser(login);
 
         if(user == null) {
-            request.getRequestDispatcher("login.jsp").forward(request, response);;
+            request.getRequestDispatcher("login.jsp").forward(request, response);
         }
 
         if(user.getPassword().equals(password)) {
             request.setAttribute("userEmail", login);
-            request.getRequestDispatcher("cabinet.jsp").forward(request, response);;
+            request.getRequestDispatcher("cabinet.jsp").forward(request, response);
         }
 
-        request.getRequestDispatcher("login.jsp").forward(request, response);;
+        request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 }

@@ -15,7 +15,7 @@
 
 <form action="login" method="post">
 
-    <label for="email">email:</label>  <input type="text" name="email">
+    <label for="login">Login:</label>  <input type="text" name="login">
     <br>
     <label for="password">Password:</label>  <input type="text" name="password">
     <br>
